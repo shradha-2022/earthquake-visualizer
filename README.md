@@ -70,6 +70,3 @@ Data is fetched from the [USGS Earthquake Feed](https://earthquake.usgs.gov/eart
 **Shradha Guttedar**
 📧 [shradhacg@gmail.com](mailto:shradhacg@gmail.com)
 
-
-Would you like me to make it a bit more stylish (with emojis, badges, and screenshots section)?
-```
