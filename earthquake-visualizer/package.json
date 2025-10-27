@@ -2,10 +2,13 @@
   "name": "earthquake-visualizer",
   "version": "0.0.1",
   "private": true,
+  "homepage": "https://shradha-2022.github.io/earthquake-visualizer",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.0",
@@ -16,11 +19,7 @@
     "react-router-dom": "^7.9.4"
   },
   "devDependencies": {
-    "vite": "^7.1.12"
+    "vite": "^7.1.12",
+    "gh-pages": "^6.0.0"
   }
-}
-"homepage": "https://your-username.github.io/earthquake-visualizer",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
 }
